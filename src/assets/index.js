@@ -31,6 +31,8 @@ import dalle from "./dall e.png";
 import node from "./node.png";
 import Mern from "./tech/MERN-logo.png";
 import ecom from "./company/ecom.png";
+
+import entraze from "./company/entraze.svg";
 // import mobile from "./mobile.png";
 export {
   logo,
@@ -49,6 +51,7 @@ export {
   nodejs,
   reactjs,
   redux,
+  entraze,
   mentorow,
   tailwind,
   typescript,

@@ -21,6 +21,8 @@ import {
   EC2,
   node,
   Mern,
+  entraze,
+  docker,
 } from "../assets";
 
 export const navLinks = [
@@ -54,6 +56,10 @@ const services = [
   {
     title: "AWS EC2",
     icon: EC2,
+  },
+  {
+    title: "Docker",
+    icon: docker,
   },
 ];
 
@@ -106,18 +112,25 @@ const experiences = [
     company_name: "Cyra Learnings",
     icon: cyra,
     iconBg: "#383E56",
-    date: "Present",
+    date: "May 2023 - Present",
     points: [],
   },
+  // {
+  //   title: "MERN Stack Developer cum Trainer",
+  //   company_name: "Mentorow",
+  //   icon: mentorow,
+  //   iconBg: "#383E56",
+  //   date: "Aug-2023 - April-2024",
+  //   points: [],
+  // },
   {
-    title: "MERN Stack Developer cum Trainer",
-    company_name: "Mentorow",
-    icon: mentorow,
+    title: "Full Stack Developer",
+    company_name: "Entraze Technologies",
+    icon: entraze,
     iconBg: "#383E56",
-    date: "Aug-2023 - April-2024",
+    date: "June 2022 - April 2023",
     points: [],
   },
-
   {
     title: "Master of Computer Applications",
     company_name: "APJ Abdul Kalam Technological University",
@@ -195,24 +208,24 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Fitness Web App",
-    description:
-      "Web-based platform that allows With the functionality to choose exercise categories and specific muscle groups, browse more than one thousand exercises with practical examples pull related videos from youtube, display similar exercises.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapid API",
-        color: "green-text-gradient",
-      },
-    ],
-    image: fitness,
-    source_code_link: "https://github.com/Sujith175/Fitness-web-App.git",
-    project_link: "https://sujithfitness.netlify.app",
-  },
+  // {
+  //   name: "Fitness Web App",
+  //   description:
+  //     "Web-based platform that allows With the functionality to choose exercise categories and specific muscle groups, browse more than one thousand exercises with practical examples pull related videos from youtube, display similar exercises.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "rapid API",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: fitness,
+  //   source_code_link: "https://github.com/Sujith175/Fitness-web-App.git",
+  //   project_link: "https://sujithfitness.netlify.app",
+  // },
   {
     name: "Crown Clothing",
     description:
